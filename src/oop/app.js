@@ -1,0 +1,35 @@
+/*
+class BaseCustomer{
+    constructor(id,customerNumber){
+        this.id=id;
+        this.customerNumber=customerNumber;
+    }
+}
+
+let customer = new BaseCustomer(1,"12345");
+console.log(customer.id);
+console.log(customer.customerNumber);
+*/
+
+/*
+//ProtoTyping
+customer.name="John Doe";
+console.log(customer.name);
+*/
+
+/*
+class IndividualCustomer extends BaseCustomer{
+    constructor(firstName,id,customerNumber){
+        super(id,customerNumber);
+        this.firstName = firstName;
+    }
+}
+
+class CorporateCustomer extends BaseCustomer{
+    constructor(companyName,id,customerNumber){
+        super(id,customerNumber);
+        this.companyName = companyName;
+
+    }
+}
+*/
